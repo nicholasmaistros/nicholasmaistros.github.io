@@ -1,0 +1,233 @@
+/*General Usage*/
+@font-face {
+    font-family: 'texgyreadventorregular';
+    src: url('tex/texgyreadventor-regular-webfont.eot');
+    src: url('tex/texgyreadventor-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('tex/texgyreadventor-regular-webfont.woff') format('woff'),
+         url('tex/texgyreadventor-regular-webfont.ttf') format('truetype'),
+         url('tex/texgyreadventor-regular-webfont.svg#texgyreadventorregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  font-family: 'texgyreadventorregular';
+  color: #333;
+}
+body p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.nav-p {
+  margin-bottom: 10px;
+}
+.topic {
+  margin-top: 40px;
+  padding-left: 10px;
+}
+a.anchor {
+  display: block;
+  position: relative;
+  visibility: hidden;
+}
+.move-anchor {
+  top: -125px;
+}
+a.nav-padding {
+  top: 0px;
+}
+.padded-container {
+  padding-top: 200px;
+}
+
+
+/****************
+Banner Section*/
+#landing-box {
+  min-height: 92vh;
+}
+#banner-box {
+  background: url("../images/bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 92vh;
+  padding: 0;
+}
+.banner-name {
+  padding-top: 10px;
+  padding-left: 15%;
+  font-size: 90px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+.banner-name.first {
+
+}
+.banner-name.last {
+  margin-top: 0;
+}
+#quote-box {
+  text-align: center;
+
+  padding: 20px;
+  width: 45%;
+  margin: 8% auto auto 10%;
+}
+.quote-fader {
+  background-color: rgba(255,255,255,0.8);
+  padding: 20px;
+}
+.quote-fader p {
+  font-size: 16px;
+  margin: 0;
+  padding-bottom: 8px;
+}
+#sticky-section {
+  min-height: 8vh
+}
+#sticky-section.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  font-size: 14px;
+}
+.footer-navbar {
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  margin: 0;
+}
+.nav-p {
+  font-size: 14px;
+}
+.footer-navbar i {
+  font-size: 18px;
+}
+.footer-navbar a, .footer-navbar a:visited {
+  color: white;
+}
+.footer-navbar a:hover {
+  color: #444;
+}
+.about-nav, .publications-nav, .projects-nav, .share-nav {
+  font-size: 14px;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.about-nav {
+  background-color: #C8AB0D;
+}
+.publications-nav {
+  background-color: #558DC1;
+}
+.projects-nav {
+  background-color: #993300;
+}
+.share-nav {
+  background-color: #C8AB0D;
+}
+/*End Banner Section
+****************/
+
+
+
+/****************
+About Section*/
+.section-header.yellow {
+  padding-top: 20px;
+  color: #C8AB0D;
+}
+#bio-box {
+  padding-bottom: 50px;
+}
+#writer-photo {
+  float: left;
+  margin-right: 10px;
+  width: 45%;
+  max-width: 275px;
+}
+.bio-content {
+
+}
+/*End About Section
+****************/
+
+
+
+/****************
+Publications Section*/
+.section-header.blue {
+  padding-top: 20px;
+  color: #558DC1;
+}
+.publication-box {
+  padding: 10px 20px 20px 50px;
+}
+.publisher {
+  text-transform: uppercase;
+  padding-left: 50px;
+  /*font-style: italic;*/
+}
+.quote-icon {
+  padding: 0 5px 5px;
+}
+.read-more {
+  padding-top: 10px;
+}
+/*End Publications Section
+****************/
+
+
+
+/****************
+Projects Section*/
+.projects-row {
+  padding-bottom: 50px;
+}
+.section-header.red {
+  padding-top: 20px;
+  color: #993300;
+}
+.project-box {
+  padding: 20px 20px 20px 50px;
+  /*padding: 20px 100px;*/
+}
+/*End Projects Section
+****************/
+
+@media only screen and (max-width:800px) {
+  body p {
+    font-size: 14px;
+  }
+  #banner-box {
+    background-attachment:scroll;
+    background-position: top 0px right -60px;
+    background-position-x: 85%;
+    background-position-y: 0%;
+    width: 100%;
+    max-height: 92vh;
+  }
+  .banner-name {
+    font-size: 30px;
+    padding-left: 15%;
+  }
+  #quote-box {
+    display: none;
+  }
+  #sticky-section.fixed {
+    font-size: 10px;
+  }
+  .about-nav, .publications-nav, .projects-nav, .share-nav {
+    padding-top: 3px;
+    padding-bottom: 8px;
+  }
+  .footer-navbar p {
+    font-size: 10px;
+  }
+  .anchor {
+    margin-top: 40px;
+  }
+}
