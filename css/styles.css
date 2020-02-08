@@ -76,7 +76,7 @@ Banner Section*/
   padding-right: 10%;
 }
 .banner-name.first {
-
+  padding-top: 60px;
 }
 .banner-name.last {
   margin-top: 0;
@@ -246,19 +246,19 @@ Projects Section*/
 /*End Projects Section
 ****************/
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:850px) {
   body p {
     font-size: 14px;
   }
-  #banner-box {
+  #landing-box {
     background-attachment:scroll;
-    background-position: top 0px right -60px;
-    background-position-x: 85%;
-    background-position-y: 0%;
+    background-position: bottom left;
+    background-position-x: 33%;
+    /* background-position-y: 0%; */
     width: 100%;
   }
   .banner-name {
-    font-size: 30px;
+    font-size: 40px;
     padding-left: 15%;
   }
   #quote-box {
@@ -272,7 +272,7 @@ Projects Section*/
     padding-bottom: 8px;
   }
   .footer-navbar p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .anchor {
     margin-top: 40px;
