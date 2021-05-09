@@ -19,7 +19,7 @@ var quotes = [
 
   '<p>Her latest drawing: the Mother crossing the glossy expanse of the Oculus, snowstorms making TV static of the mall-station\'s narrow windows between its long white bones, the Mother\'s pregnant shadow preceding her as she makes her way toward the incongruent gathering of tents in the belly of the whale...</p><p>-Desperate Living Creatures</p>',
 
-  '<p>I\’d waited for him to come to my side of the room, had been pretending to admire, for too long, something that looked as though it had once been Apollo and Daphne but was now melting like hot wax.</p><p>-The Young Ones</p>',
+  // '<p>I\’d waited for him to come to my side of the room, had been pretending to admire, for too long, something that looked as though it had once been Apollo and Daphne but was now melting like hot wax.</p><p>-The Young Ones</p>',
 
   '<p>Something was lost in the predictability of the small-town boy come to the big city... He watched the arteries of distant traffic like strands of jewelry. His shirt collar was flipped, but I didn’t reach out to right it.</p><p>-The Young Ones</p>',
 
