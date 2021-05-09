@@ -55,6 +55,9 @@ $(".publications-nav").click(function () {
 $(".projects-nav").click(function () {
   scrollAnimation("#projects");
 });
+$(".media-nav").click(function () {
+  scrollAnimation("#media");
+});
 
 $(document).ready(function () {
   var num = Math.floor(Math.random() * (quotes.length));
