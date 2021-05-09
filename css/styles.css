@@ -39,6 +39,19 @@ a.nav-padding {
 .padded-container {
   padding-top: 200px;
 }
+.container {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+}
+.padded-row {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
 
 
 /****************
@@ -132,14 +145,14 @@ Banner Section*/
 .footer-navbar a:hover {
   color: #444;
 }
-.about-nav, .publications-nav, .projects-nav, .share-nav {
+.about-nav, .publications-nav, .projects-nav, .media-nav, .share-nav {
   font-size: 14px;
   padding-top: 7px;
   padding-bottom: 10px;
   width: 25%;
 }
 
-.about-nav, .publications-nav, .projects-nav {
+.about-nav, .publications-nav, .projects-nav, .media-nav {
   color: #444;
   cursor: pointer;
 }
@@ -147,7 +160,7 @@ Banner Section*/
 .about-nav {
   background-color: #ffe658;
 }
-.publications-nav {
+.publications-nav, .media-nav {
   background-color: #58dae3;
 }
 .projects-nav {
@@ -175,6 +188,10 @@ Banner Section*/
 
 .section-header {
   padding-top: 20px;
+}
+
+.color-offset-section {
+  background-color: rgb(248, 248, 242);
 }
 
 /****************
@@ -231,7 +248,6 @@ Publications Section*/
 /****************
 Projects Section*/
 .projects-row {
-  padding-bottom: 50px;
 }
 .section-header.red {
   color: #df3133;
@@ -246,9 +262,36 @@ Projects Section*/
 /*End Projects Section
 ****************/
 
+/****************
+Media Section*/
+.media-row {
+  padding-bottom: 50px;
+}
+.section-header.red {
+  color: #df3133;
+}
+.media-box {
+  padding: 20px 20px 0 50px;
+  /*padding: 20px 100px;*/
+}
+.media-box p {
+  font-size: 18px;
+}
+/*End Media Section
+****************/
+
 @media only screen and (max-width:850px) {
   body p {
+    font-size: 14px !important;
+  }
+  .section-header {
+    font-size: 30px;
+  }
+  .quote-text {
     font-size: 14px;
+  }
+  .topic {
+    font-size: 18px;
   }
   #landing-box {
     background-attachment:scroll;
@@ -267,8 +310,8 @@ Projects Section*/
   #sticky-section.fixed {
     font-size: 10px;
   }
-  .about-nav, .publications-nav, .projects-nav, .share-nav {
-    padding-top: 3px;
+  .about-nav, .publications-nav, .projects-nav, .media-nav, .share-nav {
+    padding-top: 5px;
     padding-bottom: 8px;
   }
   .footer-navbar p {
@@ -276,5 +319,11 @@ Projects Section*/
   }
   .anchor {
     margin-top: 40px;
+  }
+  .padded-row {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
