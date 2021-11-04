@@ -16,6 +16,9 @@ $(".projects-nav").click(function () {
 $(".media-nav").click(function () {
   scrollAnimation("#media");
 });
+$(".contact-nav").click(function () {
+  scrollAnimation("#contact");
+});
 
 $(document).ready(function () {
   var num = Math.floor(Math.random() * (quotes.length));

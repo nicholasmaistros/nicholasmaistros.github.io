@@ -145,14 +145,14 @@ Banner Section*/
 .footer-navbar a:hover {
   color: #444;
 }
-.about-nav, .publications-nav, .projects-nav, .media-nav, .share-nav {
+.about-nav, .publications-nav, .projects-nav, .media-nav, .contact-nav {
   font-size: 14px;
   padding-top: 7px;
   padding-bottom: 10px;
   width: 25%;
 }
 
-.about-nav, .publications-nav, .projects-nav, .media-nav {
+.about-nav, .publications-nav, .projects-nav, .media-nav, .contact-nav {
   color: #444;
   cursor: pointer;
 }
@@ -167,11 +167,11 @@ Banner Section*/
   background-color: #df3133;
   background-color: #fe5e4a;
 }
-.share-nav {
+.contact-nav {
   background-color: #ffe658;
-  display: flex;
+  /* display: flex; */
 }
-.share-icon-container {
+/* .share-icon-container {
   justify-content: space-evenly;
   width: 100%;
 }
@@ -182,7 +182,7 @@ Banner Section*/
 }
 .share-icon a:visited {
   color: #777;
-}
+} */
 /*End Banner Section
 ****************/
 
@@ -220,6 +220,9 @@ About Section*/
 
 /****************
 Publications Section*/
+.publications-row {
+  padding-bottom: 25px;
+}
 .section-header.blue {
   color: #33608D;
 }
@@ -265,7 +268,7 @@ Projects Section*/
 /****************
 Media Section*/
 .media-row {
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 .section-header.red {
   color: #df3133;
@@ -278,6 +281,14 @@ Media Section*/
   font-size: 18px;
 }
 /*End Media Section
+****************/
+
+/****************
+Contact Section*/
+.contact-row {
+  padding-bottom: 100px;
+}
+/*End Contact Section
 ****************/
 
 @media only screen and (max-width:850px) {
